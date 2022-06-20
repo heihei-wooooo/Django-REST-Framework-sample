@@ -15,3 +15,16 @@ python3 manage.py startapp blog
 3.データベース作成
 python3 manage.py makemigrations
 python3 manage.py migrate
+
+4.adminユーザ作成
+python3 manage.py createsuperuser
+password:***
+
+5.サーバ起動
+python3 manage.py runserver
+
+6.管理画面を開く
+http://localhost:8000/admin/
+
+7.ユーザ側の画面を開く
+http://127.0.0.1:8000/
