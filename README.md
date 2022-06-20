@@ -11,3 +11,7 @@ pip3 install django-filter
 django-admin startproject django_rest_framework_sample
 cd django_rest_framework_sample/
 python3 manage.py startapp blog
+
+3.データベース作成
+python3 manage.py makemigrations
+python3 manage.py migrate
