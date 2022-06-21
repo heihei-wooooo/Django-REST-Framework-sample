@@ -28,3 +28,8 @@ http://localhost:8000/admin/
 
 7.ユーザ側の画面を開く
 http://127.0.0.1:8000/
+
+8.REST APIを作成
+・Serializer
+・ViewSet
+・URL pattern
