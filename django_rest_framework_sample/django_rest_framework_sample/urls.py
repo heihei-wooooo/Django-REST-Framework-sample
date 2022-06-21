@@ -21,7 +21,6 @@ from blog.urls import router as blog_router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # url('admin/', admin.site.urls),
     # blog.urlをinclude
     path(r'api/', include(blog_router.urls)),
 ]
